@@ -1,0 +1,16 @@
+.skills {
+  margin: 0;
+  height: calc(100vh - 20px);
+  width: calc(100vw - 20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills__container img {
+  align-items: center;
+  margin: 5px;
+  height: 120px;
+  width: auto;
+  margin: 0 5px;
+}

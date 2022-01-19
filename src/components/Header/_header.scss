@@ -1,0 +1,112 @@
+.header {
+  background: linear-gradient(90deg, rgb(67, 68, 72) 0%, rgb(26, 23, 23));
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  @media (min-width: 320px) {
+    font-size: 1rem;
+  }
+
+  @media (min-width: 425px) {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  @media (max-width: 767px) {
+    justify-content: space-between;
+  }
+
+  &__logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    @media (min-width: 320px) {
+      margin-left: 16px;
+    }
+    @media (min-width: 767px) {
+      display: flex;
+      justify-content: space-between;
+    }
+    @media (min-width: 1280px) {
+      margin-left: 0;
+    }
+  }
+}
+
+.menu-icon {
+  display: none;
+  @media (max-width: 767px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 40%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+}
+
+.header-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+
+  @media (max-width: 767px) {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 90%;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.8s ease-out;
+  }
+
+  &--active {
+    @media (max-width: 767px) {
+      background: linear-gradient(90deg, rgb(67, 68, 72) 0%, rgb(26, 23, 23));
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  }
+
+  &__links {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+
+  &__links:hover {
+    background-color: rgb(70, 109, 138);
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+  }
+}
+
+.fa-laptop-code {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+  @media (min-width: 320px) {
+    margin: 0;
+  }
+  @media (min-width: 767px) {
+    margin: 0.8rem 0 0 1rem;
+  }
+}
+
+.fa-bars {
+  color: #fff;
+  @media (min-width: 320px) {
+    font-size: 1.3rem;
+  }
+}
