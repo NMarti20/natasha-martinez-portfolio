@@ -72,7 +72,7 @@
 
   &--active {
     @media (max-width: 767px) {
-      background: linear-gradient(90deg, rgb(67, 68, 72) 0%, rgb(26, 23, 23));
+      background: linear-gradient(90deg, rgb(31, 40, 51) 0%, rgb(11, 12, 16));
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -105,7 +105,7 @@
 }
 
 .fa-bars {
-  color: #fff;
+  color: #66fcf1;
   @media (min-width: 320px) {
     font-size: 1.3rem;
   }

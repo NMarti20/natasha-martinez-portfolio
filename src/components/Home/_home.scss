@@ -22,7 +22,7 @@
   }
 
   &__details {
-    color: rgb(251, 251, 251);
+    color: #c5c6c7;
     @media (min-width: 320px) {
       padding: 0 16px 0;
     }
@@ -53,7 +53,7 @@
   }
 
   &__icons-icon {
-    color: white;
+    color: #c5c6c7;
     cursor: pointer;
     transition: 0.2s;
     @media (min-width: 320px) {
@@ -169,18 +169,4 @@
     color: aliceblue;
     background-color: rgb(86, 90, 94);
   }
-
-  // &__footer {
-  //   // height: 17.8%;
-  //   @media (min-width: 320px) {
-  //     height: 15.1%;
-  //   }
-  // }
-
-  // &__footer img {
-  //   width: 100%;
-  //   @media (min-width: 320px) {
-  //     margin-top: 50px;
-  //   }
-  // }
 }

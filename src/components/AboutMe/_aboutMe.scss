@@ -15,7 +15,7 @@
 
   &__grad-pic {
     border-radius: 4px;
-    box-shadow: 5px 5px 10px 2px rgba(45, 34, 54, 0.8);
+    box-shadow: 5px 5px 10px 2px rgba(47, 135, 167, 0.8);
     @media (min-width: 320px) {
       margin: 36px 0px 8px 0px;
       height: 55vh;
@@ -59,7 +59,7 @@
     }
   }
   &__desc {
-    color: #fff;
+    color: #c5c6c7;
     @media (min-width: 320px) {
       height: 35vh;
       font-size: 12px;
@@ -68,7 +68,7 @@
     }
     @media (min-width: 768px) {
       // height: 25vh;
-      // font-size: 13px;
+      font-size: 15px;
       margin: 0;
       width: 40vw;
       line-height: 22px;

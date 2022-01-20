@@ -5,11 +5,28 @@
   min-height: 100vh;
   padding-bottom: 8rem;
 
-  &__title-container {
-    color: #fff;
+  // &__title-container {
+  //   @media (min-width: 320px) {
+  //     margin: 10px;
+  //   }
+  // }
+  &__title {
+    color: #66fcf1;
     text-align: center;
-    margin-bottom: 2rem;
-    padding-top: 3rem;
+    @media (min-width: 320px) {
+      font-size: 20px;
+      align-items: center;
+      margin: 0 0 8px 0;
+      padding: 16px;
+    }
+    @media (min-width: 768px) {
+      font-size: 24px;
+      margin: 0 8px 16px 0;
+    }
+    @media (min-width: 1280px) {
+      font-size: 28px;
+      margin: 0 16px 24px 0;
+    }
   }
 }
 

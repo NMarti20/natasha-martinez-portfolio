@@ -18,15 +18,10 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="home__details-name">
-          
-    Natasha Martinez
-            
-         
-        </div>
+        <div className="home__details-name">Natasha Martinez</div>
 
         <div className="home__details-role">
-          <span className="home__details-text">
+          <p className="home__details-text">
             <h1>
               I'm &nbsp;
               <Typical
@@ -42,12 +37,12 @@ export default function Home() {
               />
             </h1>
 
-            <span className="home__details-tagline">
+            <p className="home__details-tagline">
               {" "}
-              With a passion for developing scalable client and server side
-              applications.
-            </span>
-          </span>
+              With a passion for developing scalable <b>client</b> and{" "}
+              <b>server</b> side applications.
+            </p>
+          </p>
         </div>
 
         <div className="home__btn-container">
