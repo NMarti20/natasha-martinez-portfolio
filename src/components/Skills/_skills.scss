@@ -1,5 +1,5 @@
 .skills {
-  background-color: #b1b1b1;
+  background-color: #0b0c10;
   width: 100vw;
   height: auto;
   min-height: 100vh;
@@ -22,7 +22,7 @@
   margin: 0 auto;
   transform: translateY(80px);
   padding: 0;
-  background-color: #212329;
+  // background-color: #212329;
   height: auto;
 }
 
@@ -40,8 +40,6 @@
 }
 
 .services-cell__img {
-  // height: 275px;
-  // width: 250px;
   object-fit: cover;
   object-position: center;
 }
@@ -56,4 +54,12 @@
   position: absolute;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   z-index: 1;
+}
+
+.services-cell:hover {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.2);
+  z-index: 99;
+  overflow: hidden;
 }

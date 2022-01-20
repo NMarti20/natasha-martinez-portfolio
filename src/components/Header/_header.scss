@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(90deg, rgb(67, 68, 72) 0%, rgb(26, 23, 23));
+  background: linear-gradient(90deg, rgb(31, 40, 51) 0%, rgb(11, 12, 16));
   height: 80px;
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@
   }
 
   &__logo {
-    color: #fff;
+    color: #66fcf1;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -81,7 +81,7 @@
   }
 
   &__links {
-    color: #fff;
+    color: #66fcf1;
     padding: 0.5rem 1rem;
     text-decoration: none;
   }
