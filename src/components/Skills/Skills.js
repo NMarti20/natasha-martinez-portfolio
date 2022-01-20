@@ -20,19 +20,33 @@ const Skills = () => {
           <img className="services-cell__img" src={Html} />
         </div>
 
-        <img src={Css} />
+        <div className="services-cell">
+          <img className="services-cell__img" src={Css} />
+        </div>
 
-        <img src={Js} />
+        <div className="services-cell">
+          <img className="services-cell__img" src={Js} />
+        </div>
 
-        <img src={Sass} />
+        <div className="services-cell">
+          <img className="services-cell__img" src={Sass} />
+        </div>
 
-        <img src={React} />
+        <div className="services-cell">
+          <img className="services-cell__img" src={React} />
+        </div>
 
-        <img src={Node} />
+        <div className="services-cell">
+          <img className="services-cell__img" src={Node} />
+        </div>
 
-        <img src={Express} />
+        <div className="services-cell">
+          <img className="services-cell__img" src={Express} />
+        </div>
 
-        <img src={Npm} />
+        <div className="services-cell">
+          <img className="services-cell__img" src={Npm} />
+        </div>
       </div>
     </div>
   );
