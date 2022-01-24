@@ -8,6 +8,13 @@ const projects = [
     desc: "Built my personal portfolio website, leveraging React, JS, HTML, CSS/SASS, Flexbox",
     img: { dummyProject },
   },
+
+  {
+    id: uuidv4(),
+    name: "BrainFlix",
+    desc: "Created a prototype for a new video streaming platform, leveraging React, JS, HTML, CSS/SASS, Flexbox, API, Postman, Axios, React Router, NodeJs, Express, Heroku",
+    img: { dummyProject },
+  },
   {
     id: uuidv4(),
     name: "Simultaneous Timers",
@@ -16,14 +23,14 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: "BrainFlix",
-    desc: "Created a prototype for a new video streaming platform, leveraging React, JS, HTML, CSS/SASS, Flexbox, API, Postman, Axios, React Router, NodeJs, Express",
+    name: "The Universe",
+    desc: "Built an app using NASA's APOD API, using React, JS, HTML, CSS/SASS",
     img: { dummyProject },
   },
   {
     id: uuidv4(),
     name: "BandSite",
-    desc: "Built a website for an 'up-and-coming' band, leveraging, JS, HTML, CSS/SASS, Flexbox, DOM manipulation, and API implementation using Heroku ",
+    desc: "Built a website for an 'up-and-coming' band, leveraging, JS, HTML, CSS/SASS, Flexbox, DOM manipulation, API, Heroku ",
     img: { dummyProject },
   },
   {
