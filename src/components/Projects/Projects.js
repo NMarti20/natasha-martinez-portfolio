@@ -1,6 +1,7 @@
 import "./_projects.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import projects from "../../assets/data/projects";
+import ProjectItem from "../ProjectItem/ProjectItem";
 
 const Projects = () => {
   return (
@@ -11,7 +12,7 @@ const Projects = () => {
         <Swiper>
           {projects.map((project, index) => {
             if (index >= 5) return;
-            return <div>This is my project</div>;
+            return <ProjectItem />;
           })}
         </Swiper>
       </div>
