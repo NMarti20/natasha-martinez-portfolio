@@ -29,7 +29,11 @@ const Projects = () => {
             if (index >= 5) return;
             return (
               <SwiperSlide key={project.id}>
-                <ProjectItem />
+                <ProjectItem
+                  title={project.name}
+                  img={project.img}
+                  desc={project.desc}
+                />
               </SwiperSlide>
             );
           })}
