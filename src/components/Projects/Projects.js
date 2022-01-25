@@ -13,7 +13,18 @@ const Projects = () => {
       <h3 className="projects__title">Projects</h3>
 
       <div className="projects__allItems">
-        <Swiper spaceBetween={30} slidesPerView={1} navigation>
+        <Swiper
+          spaceBetween={30}
+          slidesPerView={1}
+          navigation
+          breakpoints={{
+            320: { slidesPerView: 1 },
+
+            768: { slidesPerView: 2 },
+
+            1280: { slidesPerView: 3 },
+          }}
+        >
           {projects.map((project, index) => {
             if (index >= 5) return;
             return (
