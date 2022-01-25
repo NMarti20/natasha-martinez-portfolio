@@ -15,37 +15,37 @@ const Skills = () => {
         <h2 className="skills__title">Skills</h2>
       </div>
 
-      <div className="services">
-        <div className="services-cell">
-          <img className="services-cell__img" src={Html} />
+      <div className="skills__skills-container">
+        <div className="skills__img-container">
+          <img className="skills__img" src={Html} />
         </div>
 
-        <div className="services-cell">
-          <img className="services-cell__img" src={Css} />
+        <div className="skills__img-container">
+          <img className="skills__img" src={Css} />
         </div>
 
-        <div className="services-cell">
-          <img className="services-cell__img" src={Js} />
+        <div className="skills__img-container">
+          <img className="skills__img" src={Js} />
         </div>
 
-        <div className="services-cell">
-          <img className="services-cell__img" src={Sass} />
+        <div className="skills__img-container">
+          <img className="skills__img" src={Sass} />
         </div>
 
-        <div className="services-cell">
-          <img className="services-cell__img" src={React} />
+        <div className="skills__img-container">
+          <img className="skills__img" src={React} />
         </div>
 
-        <div className="services-cell">
-          <img className="services-cell__img" src={Node} />
+        <div className="skills__img-container">
+          <img className="skills__img" src={Node} />
         </div>
 
-        <div className="services-cell">
-          <img className="services-cell__img" src={Express} />
+        <div className="skills__img-container">
+          <img className="skills__img" src={Express} />
         </div>
 
-        <div className="services-cell">
-          <img className="services-cell__img" src={Npm} />
+        <div className="skills__img-container">
+          <img className="skills__img" src={Npm} />
         </div>
       </div>
     </div>
