@@ -5,7 +5,7 @@ import Js from "../../assets/Home/js.png";
 import Sass from "../../assets/Home/sass.svg";
 import Node from "../../assets/Home/node.png";
 import React from "../../assets/Home/react.png";
-import Express from "../../assets/Home/expressJS.png";
+import Express from "../../assets/Home/express.png";
 import Npm from "../../assets/Home/npm.png";
 
 const Skills = () => {
