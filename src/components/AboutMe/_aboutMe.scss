@@ -11,6 +11,7 @@
   @media (min-width: 768px) {
     flex-direction: row;
     justify-content: space-evenly;
+    height: 80vh;
   }
 
   &__grad-pic {
@@ -22,7 +23,7 @@
     }
     @media (min-width: 768px) {
       // margin: 0;
-      height: 40vh;
+      height: 50vh;
       //   margin: ;
     }
     @media (min-width: 768px) {
@@ -36,7 +37,8 @@
     align-items: center;
     margin: 0 0 48px 0;
     @media (min-width: 768px) {
-      margin: 48px 0 0 0;
+      // margin: 0px 0 0 0;
+      height: 55vh;
     }
     @media (min-width: 1280px) {
       margin: 68px 0 0 0;
