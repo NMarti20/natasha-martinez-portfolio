@@ -9,15 +9,12 @@ function ProjectItem({
   desc = "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
 }) {
   return (
-    <div>
-      {/* fix link issue */}
-      {/* <Link to="/projects" className="projectItem__img"> */}
+    <div className="projectItem">
       <img src={img} alt="project" className="projectItem__img" />
-      {/* </Link> */}
+
       <div className="projectItem__info">
-        {/* <Link to = '#'> */}
         <h3 className="projectItem__title">{title}</h3>
-        {/* </Link> */}
+
         <p className="projectItem__desc">{desc}</p>
       </div>
     </div>

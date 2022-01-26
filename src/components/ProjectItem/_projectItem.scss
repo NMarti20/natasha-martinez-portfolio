@@ -4,7 +4,7 @@
   overflow: hidden;
   border-radius: 12px;
   display: inline-block;
-  border: 3px solid gray;
+  border: 3px solid rgb(102, 252, 241);
 
   @media (max-width: 768px) {
     width: 100%;
@@ -14,21 +14,42 @@
 
 .projectItem__info {
   margin-top: 1rem;
-  background-color: rgb(34, 40, 42);
+  background-color: rgb(102, 252, 241);
   padding: 1rem;
   border-radius: 12px;
+
+  @media (min-width: 320px) {
+    margin: 8px 0 0 0;
+  }
+  @media (min-width: 768px) {
+    margin: 40px 0 0 0;
+  }
 }
-.img {
-  height: 100%;
+.projectItem__img {
+  // height: 100%;
+  @media (min-width: 320px) {
+    margin: 0 16px 0 0;
+  }
+  @media (min-width: 768px) {
+    margin: 0;
+  }
 }
 
 .projectItem__title {
   font-size: 2.2rem;
+  @media (max-width: 320px) {
+    font-size: 2rem;
+  }
 }
 
 .projectItem__desc {
   font-size: 1.6rem;
   margin-top: 1rem;
+  @media (min-width: 320px) {
+    font-size: 1.4rem;
+    margin-block-start: 0;
+  }
   @media (max-width: 768px) {
+    // width: 100px;
   }
 }

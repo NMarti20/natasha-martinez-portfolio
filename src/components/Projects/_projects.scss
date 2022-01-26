@@ -1,35 +1,62 @@
 .projects {
+  background: linear-gradient(90deg, rgb(31, 40, 51) 0%, rgb(11, 12, 16));
+  background-color: #1f2833;
   &__allItems {
     display: flex;
     gap: 3rem;
-    margin-top: 5rem;
+    // margin-top: 5rem;
+    @media (min-width: 320px) {
+      margin: 16px 0 0 0;
+    }
 
-    @media (max-width: 768px) {
+    @media (min-width: 768px) {
       flex-direction: column;
       max-width: 400px;
       margin: 0 auto;
-      margin-top: 7rem;
+      margin-top: 68px;
       gap: 5rem;
+    }
+  }
+
+  &__title {
+    color: #66fcf1;
+    text-align: center;
+
+    @media (min-width: 320px) {
+      padding: 36px 0;
     }
   }
 }
 
 .swiper-container {
-  padding-top: 8rem;
+  padding-top: 10rem;
   max-width: 100%;
 }
 
 .swiper-button-prev,
 .swiper-button-next {
   position: absolute;
-  height: 50px;
-  width: 50px;
-  background-color: dimgrey;
+  height: 40px;
+  width: 40px;
   z-index: 10;
-  right: 60px;
-  left: auto;
-  top: 0;
-  transform: translateY(50%);
-  color: gainsboro;
-  border-radius: 8px;
+
+  @media (min-width: 320px) {
+    right: 0;
+    left: 0;
+    top: 0;
+    // transform: translateY(50%);
+  }
+
+  @media (min-width: 768px) {
+    right: 60px;
+    left: auto;
+    top: 0;
+    transform: translateY(50%);
+    color: gainsboro;
+    border-radius: 8px;
+  }
+}
+
+.swiper-button-next {
+  right: 0;
 }
