@@ -1,5 +1,61 @@
 .contactMe {
+  background-color: #0b0c10;
+  width: 100vw;
+  padding-bottom: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    color: #66fcf1;
+
+    @media (min-width: 320px) {
+      font-size: 20px;
+      margin: 36px 0;
+    }
+    @media (min-width: 768px) {
+      font-size: 24px;
+    }
+    @media (min-width: 1280px) {
+      font-size: 28px;
+    }
+  }
+
+  &__desc {
+    color: #c5c6c7;
+    @media (min-width: 320px) {
+      font-size: 18px;
+      margin: 0 12px;
+    }
+    @media (min-width: 768px) {
+      font-size: 20px;
+      margin: 0 36px;
+    }
+    @media (min-width: 1280px) {
+      font-size: 22px;
+      margin: 0 48px;
+    }
+  }
+
   &__icons {
-    background-color: grey;
+    color: #c5c6c7;
+    display: flex;
+    justify-content: center;
+
+    @media (min-width: 320px) {
+      font-size: 18px;
+      margin: 24px 0 0 0;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 32px;
+      margin: 24px 0 0 0;
+    }
+
+    @media (min-width: 1280px) {
+      font-size: 48px;
+      margin: 24px 0 0 0;
+    }
   }
 }

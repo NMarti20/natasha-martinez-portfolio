@@ -3,10 +3,10 @@ import "./_contactMe.scss";
 
 function ContactMe() {
   return (
-    <div>
-      <h2>Contact Me</h2>
-      <div>
-        <h3>
+    <div className="contactMe">
+      <h2 className="contactMe__title">Contact Me</h2>
+      <div className="contactMe__info-container">
+        <h3 className="contactMe__desc">
           I am currently looking for new opportunities! If you have requests or
           questions, don't hesitate to reach out to me, and I'll try my best to
           get back to you in a timely manner.
