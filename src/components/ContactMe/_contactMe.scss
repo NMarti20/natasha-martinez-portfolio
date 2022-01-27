@@ -33,8 +33,11 @@
       margin: 0 36px;
     }
     @media (min-width: 1280px) {
+      text-align: center;
       font-size: 22px;
-      margin: 0 48px;
+      width: 80%;
+      justify-content: center;
+      margin: 0 150px;
     }
   }
 
