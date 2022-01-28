@@ -10,7 +10,7 @@ import Npm from "../../assets/Home/npm.png";
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <div className="skills__title-container">
         <h2 className="skills__title">Skills</h2>
       </div>

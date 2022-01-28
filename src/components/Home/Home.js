@@ -4,7 +4,7 @@ import "./_home.scss";
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="home__details">
         <div className="home__icons">
           <a href="https://github.com/NMarti20" className="home__icons-icon">

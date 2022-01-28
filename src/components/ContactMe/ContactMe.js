@@ -3,7 +3,7 @@ import "./_contactMe.scss";
 
 function ContactMe() {
   return (
-    <div className="contactMe">
+    <div className="contactMe" id="contactMe">
       <h2 className="contactMe__title">Contact Me</h2>
       <div className="contactMe__info-container">
         <h3 className="contactMe__desc">

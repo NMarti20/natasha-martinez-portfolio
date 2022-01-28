@@ -9,7 +9,7 @@ SwiperCore.use([Navigation]);
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h3 className="projects__title">Projects</h3>
 
       <div className="projects__allItems">

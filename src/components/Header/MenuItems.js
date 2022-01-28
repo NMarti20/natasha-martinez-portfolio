@@ -1,22 +1,22 @@
 export const menuItems = [
   {
     section: "Home",
-    link: "#",
+    link: "#home",
   },
   {
     section: "About Me",
-    link: "#",
+    link: "#about",
   },
   {
     section: "Skills",
-    link: "#",
+    link: "#skills",
   },
   {
     section: "Projects",
-    link: "#",
+    link: "#projects",
   },
   {
     section: "Contact Me",
-    link: "#",
+    link: "#contactMe",
   },
 ];
