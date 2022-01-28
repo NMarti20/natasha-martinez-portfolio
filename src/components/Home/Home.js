@@ -46,19 +46,14 @@ export default function Home() {
         </div>
 
         <div className="home__btn-container">
-          <a href="nmartinez.pdf" download="nmartinez.pdf">
+          <a
+            href="MartinezNatashaResume.pdf"
+            download="MartinezNatashaResume.pdf"
+          >
             <button className="home__btn">Resume</button>
           </a>
         </div>
       </div>
-
-      {/* <div className="home__footer">
-        <img
-          className="home__footer-img"
-          src={require("../../assets/Home/wave-left.png").default}
-          alt="home background shape"
-        />
-      </div> */}
     </div>
   );
 }
